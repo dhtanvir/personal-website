@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav ul {
+    width: 500px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* banner section */
+.banner-section {
+    margin-top: 20px;
+}
+
+.banner-container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img-contain img {
+    max-width: 471px;
+    height: 100%;
+}
+
+.banner-text-contain h2 {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #363958;
+}
+
+.banner-text-contain h2 span {
+    color: #FF8367;
+}
+
+.banner-text-contain p {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+}
+
+.banner-text-contain .btn {
+    padding: 18px 40px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: linear-gradient(0.00deg, rgba(255, 127.58, 98.81, 1), rgba(244.38, 95.71, 95.71, 1) 100%);
+}
+
+/* about-section */
+.about-section {
+    margin-top: 20px;
+}
+
+.about-container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+.about-img-contain img {
+    max-width: 476px;
+    height: 100%;
+}
+
+.about-text-container {
+    margin-left: 40px;
+}
+
+.about-text-container h4 {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #363958;
+}
+
+.about-text-container p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #3E3E3E;
+    margin-bottom: 20px;
+}
+
+.about-text-container .btn {
+    padding: 18px 40px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: linear-gradient(0.00deg, rgba(255, 127.58, 98.81, 1), rgba(244.38, 95.71, 95.71, 1) 100%);
+}
+
+/* project-section */
+.project-section{
+    margin-top: 50px;
+    background-color: #F8F9FC;
+}
+
+.project-container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.project-container .project-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-title h1{
+    font-size: 48px;
+    font-weight:normal;
+    padding-top: 124px;
+}
