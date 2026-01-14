@@ -179,7 +179,8 @@ nav ul li a {
     padding-top: 80px;
     padding-bottom: 40px;
 }
-.project-title .text-color{
+
+.project-title .text-color {
     color: #F46060;
 }
 
@@ -224,17 +225,68 @@ nav ul li a {
     line-height: 24px;
     color: #6C6C6C;
 }
+
 /* work-section  */
 .work-section {
-    margin-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .work-container {
     width: 80%;
     max-width: 1300px;
     margin: 0 auto;
+}
+
+.work-contain {
+    max-width: 910px;
+    height: 225px;
+    background-image: url('../images/shapes/Group_33094_1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 90px;
+    margin: 0 auto;
+}
+
+.work-contain h1 {
+    font-size: 64px;
+    font-weight: normal;
+    color: white;
+}
+
+/* footer */
+.footer-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h6 {
+    font-size: 24px;
+    color: #696871;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.container h5 {
+    font-size: 36px;
+    color: #363958;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.social-icon img {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
 }
